@@ -181,9 +181,20 @@ a {
     width: 40px;
 }
 
+.icon--small {
+    width: 30px;
+    height: 30px;
+}
+
 .icon--primary {
     fill: var(--primary-color);
 }
+
+
+.icon--white {
+    fill: white;
+}
+
 
 .icon-container {
     background-color: #f3f9fa;
@@ -193,6 +204,12 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+
+
+}
+
+.icon-container--accent {
+    background-color: var(--accent-color);
 }
 
 /* Buttons */
@@ -322,6 +339,10 @@ a {
 
 .card--secondary .badge--secondary {
     background-color: #02cdf1;
+}
+
+.card .icon-container {
+    overflow: visible;
 }
 
 /* Plans */
@@ -471,5 +492,37 @@ a {
 @media screen and (min-width:1024px) {
     .grid--cols-3 {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Testimonials */
+.testimonial {
+    padding: 3.5rem;
+}
+
+.testimonial__image-container {
+    position: relative;
+}
+
+.testimonial__image {
+    width: 100%;
+}
+
+.testimonial__image-container .icon-container {
+    position: absolute;
+    right: -32px;
+    top: 2rem;
+}
+
+@media screen and (min-width:768px) {
+
+    .testimonial .quote,
+    .testimonial .quote__author {
+        font-size: 2.4rem;
+    }
+
+    .testimonial .quote {
+        margin-left: 6rem;
+
     }
 }
