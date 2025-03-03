@@ -74,6 +74,10 @@ p {
     margin-top: 0;
 }
 
+img {
+    width: 100%;
+}
+
 @media screen and (min-width:1024px) {
     body {
         font-size: 2.8rem;
@@ -545,21 +549,24 @@ a {
 
 /* Testimonials */
 .testimonial {
-    padding: 3.5rem;
+    padding: 3rem;
 }
 
-.testimonial__image-container {
-    position: relative;
-}
 
 .testimonial__image {
-    width: 100%;
+    position: relative;
+    margin: 0px 3rem;
 }
 
-.testimonial__image-container .icon-container {
+.testimonial__image .icon-container {
     position: absolute;
     right: -32px;
     top: 2rem;
+}
+
+.testimonial .quote {
+    font-size: 110%;
+    margin: 2rem 0px;
 }
 
 @media screen and (min-width:768px) {
