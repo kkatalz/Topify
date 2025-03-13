@@ -21,7 +21,9 @@
   <body>
     <header>
       <nav class="collapsible nav">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="Moshikfy" class="nav__brand" href="/"
+          ><img src="images/logo.svg" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggler">
           <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
@@ -67,6 +69,7 @@
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain name"
           type="text"
           placeholder="Enter domain name here..."
           class="input"
