@@ -1,0 +1,23 @@
+{
+  "name": "topify",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkatalz/Topify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkatalz/Topify/issues"
+  },
+  "homepage": "https://github.com/kkatalz/Topify#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "svgo": "^3.3.2"
+  }
+}
