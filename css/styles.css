@@ -249,6 +249,10 @@ a {
     white-space: nowrap;
 }
 
+.btn:hover {
+    transition: background-color 0.2s;
+}
+
 .btn .icon {
     width: 2rem;
     height: 2rem;
